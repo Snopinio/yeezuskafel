@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: gainsboro;
+    color: white;
+    padding: 15px, 12px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.jezyk {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: none;
+}
+
+div#prawy {
+    align-items: center;
+    display: flex;
+}
+
+div#lewy {
+    align-items: center;
+    display: flex;
+}
+
+div#srodek {
+    align-items: center;
+    display: flex;
+}
+
+.kategorie {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 2px;
+    padding: 10px;
+}
+
+.Szukaj {
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    width: 700px;
+    margin-right: 10px;
+}
+
+.szukaj-przycisk {
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.account-link,
+.cart-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.k-ikonka {
+    width: 30px;
+    height: auto;
+    margin: right 4px;
+}
+
+.kategoria {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: center;
+}
+
+div#kategorie {
+    background-color: grey;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 3px;
+    width: 450px;
+    border-radius: 3px;
+}
+
+h2 {
+    margin: 22px;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: white;
+
+}
+
+div#kategorie>img {
+
+    margin-bottom: 6px;
+    border-radius: 1px;
+}
